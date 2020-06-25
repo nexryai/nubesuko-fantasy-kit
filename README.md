@@ -12,9 +12,9 @@ nubesuko-fantasy-kitは以下のような構造になっています
 敵の姿(AA)
 #### nubesuko-nano.txt
 nubesuko.txtと同じ内容。nanoを使用する際に使用します
-#### bgm.np3
+#### bgm.mp3
 
-ここから下にはオープニングに使用するファイルが入っています
+
 ### op.sh
 オープニングのプログラム
 ### op.txt
@@ -22,3 +22,6 @@ op1.txt→op2.txt→...→op.txt
 
 という流れでスライドショーされます
 ### op.mp3
+
+### nubesuko-fantasy
+これを実行することでゲームが始まります
