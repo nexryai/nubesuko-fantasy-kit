@@ -1,0 +1,26 @@
+clear
+mpg123 op.mp3 -q &
+sleep 1
+clear
+cat op1.txt
+sleep 4
+clear
+cat op2.txt
+sleep 4
+clear
+cat op3.txt
+sleep 4
+clear
+cat op4.txt
+sleep 4
+clear
+cat op.txt
+
+echo
+echo  -e "\033[5mhit-enter\033[0m"
+read -p ">>> "
+
+pkill mpg123
+sleep 2.5
+cd boss
+./nubesuko.sh
