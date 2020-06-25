@@ -1,7 +1,7 @@
 # nubesuko-fantasy-kit
 nubesuko-fantasyはlinuxのコマンドラインで動く簡易的なゲームを作るためのキットです
 
-## 近日公開
+## BGMデータはセットされていません。各自で用意してください
 ## 仕様
 nubesuko-fantasy-kitは以下のような構造になっています
 ### boss
@@ -13,12 +13,12 @@ nubesuko-fantasy-kitは以下のような構造になっています
 #### nubesuko-nano.txt
 nubesuko.txtと同じ内容。nanoを使用する際に使用します
 #### bgm.np3
-### op
-ここにはオープニングに使用するファイルが入っています
-#### op.sh
+
+ここから下にはオープニングに使用するファイルが入っています
+### op.sh
 オープニングのプログラム
-#### op.txt
+### op.txt
 op1.txt→op2.txt→...→op.txt
 
 という流れでスライドショーされます
-#### op.mp3
+### op.mp3
